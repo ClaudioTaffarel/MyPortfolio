@@ -1,0 +1,148 @@
+// Edit this file to update your portfolio. Project links are optional.
+// Add real screenshots to assets/ and change each image field below.
+window.PORTFOLIO = {
+  // Local Devicon SVGs; add/replace icons here when changing the toolbox.
+  skillIcons: {
+    "HTML & CSS": "html5",
+    JavaScript: "javascript",
+    PHP: "php",
+    Laravel: "laravel",
+    Python: "python",
+    SQL: "mysql",
+    Flutter: "flutter",
+    "C++": "cplusplus",
+    Git: "git",
+    Figma: "figma",
+  },
+  skills: [
+    "HTML & CSS",
+    "JavaScript",
+    "PHP",
+    "Laravel",
+    "Python",
+    "SQL",
+    "Flutter",
+    "C++",
+    "Git",
+    "Figma",
+  ],
+  projects: [
+    {
+      title: "CBT Akademis.ai",
+      category: "WEB PLATFORM · PARTNER PROJECT",
+      date: "March – June 2026",
+      color: "blue",
+      cover: "01",
+      image: "assets/project-1.webp",
+      tags: ["UI design", "Frontend", "Documentation"],
+      intro: "A testing platform with different people in mind.",
+      description:
+        "A computer-based testing platform serving lecturers, students, and administrators, developed as a partner team project.",
+      contributions: [
+        "Designed platform prototypes in Figma.",
+        "Developed selected frontend pages for different user roles.",
+        "Prepared DCP04–DCP09 documentation covering analysis, UML, requirements, design, development, validation, implementation, and evaluation.",
+      ],
+      tools: "Figma · Frontend development · UML",
+      demo: "",
+      repository: "",
+    },
+    {
+      title: "Rajawali Plastik",
+      category: "BUSINESS WEBSITE · PARTNER PROJECT",
+      date: "October – November 2025",
+      color: "orange",
+      cover: "02",
+      image: "assets/project-2.webp",
+      tags: ["Frontend", "Backend", "Figma"],
+      intro: "Bringing a business and its customers closer.",
+      description:
+        "A business website with customer and administrator interfaces, real-time chat, and an admin dashboard for content management.",
+      contributions: [
+        "Designed website prototypes in Figma.",
+        "Contributed to frontend and backend development of the main page and blog system.",
+        "Collaborated on a platform supporting customer communication and content management.",
+      ],
+      tools: "Figma · Frontend & backend development",
+      demo: "",
+      repository: "",
+    },
+    {
+      title: "Eggsplore",
+      category: "MOBILE MARKETPLACE · TEAM PROJECT",
+      date: "September – October 2025",
+      color: "yellow",
+      cover: "03",
+      image: "assets/project-3.webp",
+      tags: ["Flutter", "Mobile", "Prototyping"],
+      intro: "A little marketplace. A lot to explore.",
+      description:
+        "A mobile marketplace prototype with product browsing, search and filtering, and basic cart and checkout screens.",
+      contributions: [
+        "Contributed to the Flutter application and its backend.",
+        "Designed the application prototype in Figma.",
+        "Helped create the project mascot using Procreate.",
+      ],
+      tools: "Flutter · Figma · Procreate",
+      demo: "",
+      repository: "",
+    },
+    {
+      title: "KriyaKita",
+      category: "CRAFT DISCOVERY · TEAM PROJECT",
+      date: "September 2025",
+      color: "pink",
+      cover: "04",
+      image: "assets/project-4.webp",
+      tags: ["JavaScript", "HTML & CSS", "LocalStorage"],
+      intro: "A digital home for Indonesian craftsmanship.",
+      description:
+        "A website showcasing Indonesian traditional crafts through an interactive client-side experience.",
+      contributions: [
+        "Developed client-side functionality and selected frontend components.",
+        "Implemented filtering and favourites.",
+        "Built prototype login/logout behaviour using LocalStorage.",
+      ],
+      tools: "HTML · CSS · JavaScript · LocalStorage",
+      demo: "",
+      repository: "",
+    },
+  ],
+  certificates: [
+    {
+      name: "2nd Place, Scientific Article Competition",
+      issuer: "UNTAR Humanities Festival",
+      date: "JUN 2026",
+    },
+    {
+      name: "AI Engineer Bootcamp",
+      issuer: "FullStack Bangalore",
+      date: "FEB 2026",
+    },
+    {
+      name: "Data Science & ML Bootcamp",
+      issuer: "FullStack Bangalore",
+      date: "DEC 2025",
+    },
+    {
+      name: "AI Introduction Course",
+      issuer: "Dicoding Indonesia",
+      date: "DEC 2025",
+    },
+    {
+      name: "A+ in Mathematics and English Olympiads",
+      issuer: "PT Olimpiade Nasional Indonesia",
+      date: "FEB 2025",
+    },
+    {
+      name: "1st Honorable Mention, National Poster Competition",
+      issuer: "Creatifa Indonesia",
+      date: "JAN 2025",
+    },
+    {
+      name: "Data Analytics Bootcamp",
+      issuer: "RevoU",
+      date: "NOV 2024",
+    },
+  ],
+};
