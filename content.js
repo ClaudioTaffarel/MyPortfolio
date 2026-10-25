@@ -34,6 +34,14 @@ window.PORTFOLIO = {
       color: "blue",
       cover: "01",
       image: "assets/project-1.webp",
+      gallery: [
+        {
+          src: "assets/project-1.webp",
+          alt: "Project overview",
+          caption: "Project overview",
+        },
+        // Add more screenshots here: { src: "assets/your-screenshot.webp", alt: "Dashboard", caption: "Dashboard" },
+      ],
       tags: ["UI design", "Frontend", "Documentation"],
       intro: "A testing platform with different people in mind.",
       description:
@@ -54,6 +62,14 @@ window.PORTFOLIO = {
       color: "orange",
       cover: "02",
       image: "assets/project-2.webp",
+      gallery: [
+        {
+          src: "assets/project-2.webp",
+          alt: "Project overview",
+          caption: "Project overview",
+        },
+        // Add more screenshots here: { src: "assets/your-screenshot.webp", alt: "Dashboard", caption: "Dashboard" },
+      ],
       tags: ["Frontend", "Backend", "Figma"],
       intro: "Bringing a business and its customers closer.",
       description:
@@ -74,6 +90,14 @@ window.PORTFOLIO = {
       color: "yellow",
       cover: "03",
       image: "assets/project-3.webp",
+      gallery: [
+        {
+          src: "assets/project-3.webp",
+          alt: "Project overview",
+          caption: "Project overview",
+        },
+        // Add more screenshots here: { src: "assets/your-screenshot.webp", alt: "Dashboard", caption: "Dashboard" },
+      ],
       tags: ["Flutter", "Mobile", "Prototyping"],
       intro: "A little marketplace. A lot to explore.",
       description:
@@ -94,6 +118,14 @@ window.PORTFOLIO = {
       color: "pink",
       cover: "04",
       image: "assets/project-4.webp",
+      gallery: [
+        {
+          src: "assets/project-4.webp",
+          alt: "Project overview",
+          caption: "Project overview",
+        },
+        // Add more screenshots here: { src: "assets/your-screenshot.webp", alt: "Dashboard", caption: "Dashboard" },
+      ],
       tags: ["JavaScript", "HTML & CSS", "LocalStorage"],
       intro: "A digital home for Indonesian craftsmanship.",
       description:
@@ -108,40 +140,48 @@ window.PORTFOLIO = {
       repository: "",
     },
   ],
+  // Set image to a local screenshot path to replace each blank preview.
   certificates: [
     {
       name: "2nd Place, Scientific Article Competition",
       issuer: "UNTAR Humanities Festival",
+      image: "",
       date: "JUN 2026",
     },
     {
       name: "AI Engineer Bootcamp",
       issuer: "FullStack Bangalore",
+      image: "",
       date: "FEB 2026",
     },
     {
       name: "Data Science & ML Bootcamp",
       issuer: "FullStack Bangalore",
+      image: "",
       date: "DEC 2025",
     },
     {
       name: "AI Introduction Course",
       issuer: "Dicoding Indonesia",
+      image: "",
       date: "DEC 2025",
     },
     {
       name: "A+ in Mathematics and English Olympiads",
       issuer: "PT Olimpiade Nasional Indonesia",
+      image: "",
       date: "FEB 2025",
     },
     {
       name: "1st Honorable Mention, National Poster Competition",
       issuer: "Creatifa Indonesia",
+      image: "",
       date: "JAN 2025",
     },
     {
       name: "Data Analytics Bootcamp",
       issuer: "RevoU",
+      image: "",
       date: "NOV 2024",
     },
   ],
