@@ -484,8 +484,12 @@ button:disabled {
   transform: scale(1.06);
 }
 .flight-card:nth-child(3) img {
-  object-fit: contain;
-  background: #ffe19e;
+  object-fit: cover;
+  object-position: center;
+  transform: scale(1.15);
+}
+.flight-card:nth-child(3) button:hover img {
+  transform: scale(1.2);
 }
 .flight-card h3 {
   font-family: var(--serif);
