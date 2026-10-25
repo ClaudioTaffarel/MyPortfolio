@@ -198,18 +198,4 @@
     });
     addEventListener("resize", move);
   });
-  const cursor = document.querySelector(".cursor-label");
-  document.querySelectorAll(".flight-card button").forEach((b) => {
-    b.addEventListener("pointerenter", (e) => {
-      if (e.pointerType === "mouse" && !app.paused)
-        cursor.classList.add("visible");
-    });
-    b.addEventListener("pointerleave", () =>
-      cursor.classList.remove("visible"),
-    );
-    b.addEventListener("click", () => cursor.classList.remove("visible"));
-    b.addEventListener("pointermove", (e) => {
-      cursor.style.transform = `translate(${e.clientX + 14}px,${e.clientY + 14}px)`;
-    });
-  });
 })();
