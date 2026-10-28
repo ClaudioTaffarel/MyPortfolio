@@ -134,11 +134,12 @@ window.PORTFOLIO = {
           src: "../assets/cbt20.webp",
           alt: "Project overview",
           caption: "-",
-        }
+        },
         // Add more screenshots here: { src: "assets/your-screenshot.webp", alt: "Dashboard", caption: "Dashboard" },
       ],
       tags: ["UI/UX Design", "Frontend", "Technical Documentation"],
-      intro: "Making digital examinations easier to navigate, manage, and deliver.",
+      intro:
+        "Making digital examinations easier to navigate, manage, and deliver.",
       description:
         "CBT Akademis AI is a web-based examination platform that brings question creation, exam scheduling, participant management, grading, and result reporting into one system. Designed for lecturers, students, and administrators, the platform supports AI-powered question generation, real-time exam monitoring, automatic grading for objective questions, and manual essay evaluation. Developed as a collaborative partner project, it connects multiple examination workflows through dedicated interfaces for each user role.",
       contributions: [
@@ -258,11 +259,12 @@ window.PORTFOLIO = {
           src: "../assets/raj20.webp",
           alt: "Project overview",
           caption: "-",
-        }
+        },
         // Add more screenshots here: { src: "assets/your-screenshot.webp", alt: "Dashboard", caption: "Dashboard" },
       ],
       tags: ["UI/UX Design", "Frontend", "Backend"],
-      intro: "Connecting a business's digital presence with its everyday operations.",
+      intro:
+        "Connecting a business's digital presence with its everyday operations.",
       description:
         "DigiHub is a web-based business platform developed for Rajawali Plastik, combining a customer-facing website with administrative tools for managing business information and operations. The platform brings together inventory, sales, and distribution modules alongside customer communication and content management features. Built with Next.js and Laravel, it helps customers access business information while giving administrators a central place to manage content and operational data.",
       contributions: [
@@ -382,40 +384,135 @@ window.PORTFOLIO = {
           src: "../assets/egg20.webp",
           alt: "Project overview",
           caption: "-",
-        }
+        },
         // Add more screenshots here: { src: "assets/your-screenshot.webp", alt: "Dashboard", caption: "Dashboard" },
       ],
-        tags: ["Flutter", "UI/UX Design", "Frontend & Backend"],
-        intro: "A playful marketplace built around everyday shopping journeys.",
-        description:
-          "Eggsplore is a mobile marketplace application that combines core e-commerce features with a playful visual identity. Users can browse and search for products, manage their shopping cart, and move through a checkout flow supported by a virtual balance system. The application also includes user authentication and product management, with a Flutter interface connected to a Laravel backend through a RESTful API and MySQL database.",
-        contributions: [
-          "Designed the application's interface prototypes in Figma, shaping the screen layouts and user flows for the shopping experience.",
-          "Created the project mascot and supporting visual assets in Procreate to give the application a distinctive and consistent identity.",
-          "Developed selected Flutter pages, translating the prototypes into functional interfaces and interactive elements.",
-          "Implemented backend functionality for selected pages and connected those interfaces to backend services through RESTful APIs.",
-        ],
-        tools: "Flutter · Dart · Laravel · MySQL · RESTful APIs · Figma · Procreate",
-        demo: "",
-        repository: "https://github.com/NatanaelVineDjapri/Eggsplore_Marketplace",
+      tags: ["Flutter", "UI/UX Design", "Frontend & Backend"],
+      intro: "A playful marketplace built around everyday shopping journeys.",
+      description:
+        "Eggsplore is a mobile marketplace application that combines core e-commerce features with a playful visual identity. Users can browse and search for products, manage their shopping cart, and move through a checkout flow supported by a virtual balance system. The application also includes user authentication and product management, with a Flutter interface connected to a Laravel backend through a RESTful API and MySQL database.",
+      contributions: [
+        "Designed the application's interface prototypes in Figma, shaping the screen layouts and user flows for the shopping experience.",
+        "Created the project mascot and supporting visual assets in Procreate to give the application a distinctive and consistent identity.",
+        "Developed selected Flutter pages, translating the prototypes into functional interfaces and interactive elements.",
+        "Implemented backend functionality for selected pages and connected those interfaces to backend services through RESTful APIs.",
+      ],
+      tools:
+        "Flutter · Dart · Laravel · MySQL · RESTful APIs · Figma · Procreate",
+      demo: "",
+      repository: "https://github.com/NatanaelVineDjapri/Eggsplore_Marketplace",
+    },
+    {
+      title: "ADULLAM Youth",
+      category: "COMMUNITY PLATFORM · PERSONAL PROJECT",
+      date: "October 2026",
+      color: "orange",
+      cover: "04",
+      image: "assets/youth1.webp",
+      gallery: [
+        {
+          src: "../assets/youth1.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth2.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth3.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth4.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth5.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth6.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth7.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth8.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth9.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth10.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth11.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth12.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+        {
+          src: "../assets/youth13.webp",
+          alt: "Project overview",
+          caption: "-",
+        },
+      ],
+      tags: ["Full-Stack Development", "React", "TypeScript", "Supabase"],
+      intro:
+        "A digital home for ADULLAM Youth, built around connection, shared reflections, and the belief that everyone belongs.",
+      description:
+        "ADULLAM Youth is a full-stack community website developed as a personal project for my church youth community. Visitors can discover activities and find contact information, while registered members can share daily devotions, look up Bible passages, and track their devotion streaks. A dedicated admin dashboard supports event publishing, member management, devotion moderation, and website photo updates. The interface combines a warm retro neo-brutalist style with animated illustrations, floating photo memories, and responsive interactions. Development and local functional testing are complete, with deployment in progress.",
+      contributions: [
+        "Developed the application from interface design to frontend, backend, and database integration for the community's day-to-day needs.",
+        "Built responsive React interfaces with TypeScript, including animated hero sections, event carousels, accessible dialogs, and a floating streak mascot.",
+        "Implemented authentication, password recovery, profile editing, and avatar uploads using Supabase Auth and Storage.",
+        "Developed Express API endpoints with input validation, authenticated access, and role-based authorization for administrative features.",
+        "Built the daily devotion workflow with Bible passage validation, a feed filtered by the current date in Western Indonesian Time, and streak calculations based on contribution history.",
+        "Created an admin dashboard for community statistics, event creation and editing, member account suspension, devotion moderation, and website photo management.",
+        "Configured PostgreSQL tables and Row Level Security policies, and implemented server-side image processing for event and website uploads.",
+      ],
+      tools:
+        "React · TypeScript · Vite · Node.js · Express · Supabase · PostgreSQL · CSS · Multer · Sharp",
+      demo: "",
+      repository: "",
     },
     {
       title: "KriyaKita",
       category: "CRAFT DISCOVERY · TEAM PROJECT",
       date: "September 2025",
       color: "pink",
-      cover: "04",
-      image: "assets/project-4.webp",
+      cover: "05",
+      image: "assets/project-5.webp",
       gallery: [
         {
-          src: "assets/project-4.webp",
+          src: "assets/project-5.webp",
           alt: "Project overview",
           caption: "Project overview",
         },
         // Add more screenshots here: { src: "assets/your-screenshot.webp", alt: "Dashboard", caption: "Dashboard" },
       ],
       tags: ["UI/UX Design", "Frontend", "JavaScript"],
-      intro: "Bringing Indonesian craftsmanship into an interactive digital experience.",
+      intro:
+        "Bringing Indonesian craftsmanship into an interactive digital experience.",
       description:
         "KriyaKita is a craft discovery website that introduces users to Indonesian traditional crafts through an interactive browsing experience. Visitors can explore the collection, filter items, and save their favourites for later. Built with HTML, CSS, and JavaScript, the project combines visual storytelling with client-side interactions, using LocalStorage to retain favourites and demonstrate prototype login and logout behaviour.",
       contributions: [
