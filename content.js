@@ -408,7 +408,7 @@ window.PORTFOLIO = {
       date: "October 2026",
       color: "orange",
       cover: "04",
-      image: "assets/youth1.webp",
+      image: "assets/youth5.webp",
       gallery: [
         {
           src: "../assets/youth1.webp",
